@@ -1,0 +1,48 @@
+{
+  "type": "footer",
+  "name": "Footer Group",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "menu_DixUhT": {
+          "type": "menu",
+          "disabled": true,
+          "settings": {
+            "heading": "Footer menu",
+            "menu": "footer"
+          }
+        }
+      },
+      "block_order": [
+        "menu_DixUhT"
+      ],
+      "settings": {
+        "color_scheme": "schema-2",
+        "enable_back_to_top": true,
+        "enable_collapse": true,
+        "remove_padding_top": false,
+        "remove_padding_bottom": false,
+        "logo": "shopify:\/\/shop_images\/favicon_logo.png",
+        "logo_width": 50,
+        "heading": "Oral Agency",
+        "description": "<p>This text area can be used to explain your brand's vision and mission to your customers.<\/p>",
+        "contact_heading": "Contact us",
+        "show_info": true,
+        "enable_newsletter": false,
+        "newsletter_heading": "Newsletter",
+        "newsletter_description": "<p>Join our mailing list for promotions, new products and sales. Directly to your inbox.<\/p>",
+        "newsletter_color_background": "#000000",
+        "newsletter_color": "#ffffff",
+        "show_currency_selector": true,
+        "show_language_selector": true,
+        "social_heading": "Follow us",
+        "show_socical_icons": true,
+        "show_payment_methods": true
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

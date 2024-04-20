@@ -1,0 +1,106 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "settings": {
+        "color_scheme": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "color_scheme": "",
+        "show_page_title": true,
+        "remove_padding_top": true,
+        "remove_padding_bottom": false
+      }
+    },
+    "collapsible_content_bfCELV": {
+      "type": "collapsible-content",
+      "blocks": {
+        "content_fXwygU": {
+          "type": "content",
+          "settings": {
+            "block_heading": "How do sonic toothbrushes work?",
+            "description": "<p>Sonic toothbrushes use high-frequency vibrations to create a brushing action that helps dislodge plaque and debris from teeth and gums. These vibrations can range up to 40,000 strokes per minute, depending on the model.<\/p>",
+            "page": "",
+            "icon_source": "theme_library",
+            "options_icon": "check",
+            "html_code": ""
+          }
+        },
+        "content_Bkpair": {
+          "type": "content",
+          "settings": {
+            "block_heading": "Are sonic toothbrushes better than manual toothbrushes?",
+            "description": "<p>Sonic toothbrushes can be more effective at cleaning teeth compared to manual toothbrushes because of their high-speed vibrations, which can reach areas that are harder to clean with a manual brush.<\/p>",
+            "page": "",
+            "icon_source": "theme_library",
+            "options_icon": "check",
+            "html_code": ""
+          }
+        },
+        "content_fxQhxN": {
+          "type": "content",
+          "settings": {
+            "block_heading": "Do sonic toothbrushes whiten teeth?",
+            "description": "<p>Sonic toothbrushes can contribute to whiter teeth by effectively removing surface stains and plaque. However, for significant whitening, you may still need additional treatments like whitening toothpaste or professional dental cleanings.<\/p>",
+            "page": "",
+            "icon_source": "theme_library",
+            "options_icon": "check",
+            "html_code": ""
+          }
+        },
+        "content_JM4hHm": {
+          "type": "content",
+          "settings": {
+            "block_heading": "Are sonic toothbrushes safe for everyone?",
+            "description": "<p>Sonic toothbrushes are safe for most people to use. However, individuals with certain oral health conditions or dental work should consult their dentist before using a sonic toothbrush to ensure it’s suitable for their needs.<\/p>",
+            "page": "",
+            "icon_source": "theme_library",
+            "options_icon": "check",
+            "html_code": ""
+          }
+        },
+        "content_MyyDVw": {
+          "type": "content",
+          "settings": {
+            "block_heading": "How often should sonic toothbrush heads be replaced?",
+            "description": "<p>Sonic toothbrush heads should typically be replaced every 3 to 4 months or sooner if the bristles become frayed. This ensures optimal cleaning performance and hygiene.<\/p>",
+            "page": "",
+            "icon_source": "theme_library",
+            "options_icon": "check",
+            "html_code": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_fXwygU",
+        "content_Bkpair",
+        "content_fxQhxN",
+        "content_JM4hHm",
+        "content_MyyDVw"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "subheading": "",
+        "heading": "F.A.Q",
+        "description": "",
+        "content_alignment": "ta-left",
+        "content_ordering": "text_first",
+        "remove_padding_top": false,
+        "remove_padding_bottom": false,
+        "image_ratio": "2\/3",
+        "btn_text": "",
+        "btn_link": "",
+        "show_icon": true,
+        "expand_first_item_initially": true
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "main",
+    "collapsible_content_bfCELV"
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-1": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 40,
+            "slide_mask_overlay_color": "#000000",
+            "slide_content_overlay_color": "#ffffff",
+            "sub_heading": "Pressure Sensor Toothbrush",
+            "heading": "3D-Touch",
+            "description": "",
+            "desktop_image": "shopify:\/\/shop_images\/Photoroom_20240416_181526.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Photoroom_20240416_181526.jpg",
+            "primary_button_label": "Shop Now",
+            "primary_button_link": "shopify:\/\/collections\/all",
+            "secondary_button_label": "Review",
+            "secondary_button_link": ""
+          }
+        },
+        "slide_RAxtWY": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 30,
+            "slide_mask_overlay_color": "#000000",
+            "slide_content_overlay_color": "#ffffff",
+            "sub_heading": "40,000 Brushes\/Min",
+            "heading": "Pro-Clean",
+            "description": "",
+            "desktop_image": "shopify:\/\/shop_images\/Photoroom_20240416_181332.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Photoroom_20240416_181332.jpg",
+            "primary_button_label": "Shop Now",
+            "primary_button_link": "",
+            "secondary_button_label": "Review",
+            "secondary_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide-1",
+        "slide_RAxtWY"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "enable_large_heading": true,
+        "height_desktop": "70",
+        "height_mobile": "100",
+        "enable_pagination": true,
+        "enable_navigation": true,
+        "enable_autoplay": true,
+        "delay": 3,
+        "content_position": "left-bottom",
+        "accessibility_content": "Smarter way of brushing with"
+      }
+    },
+    "image-with-text": {
+      "type": "image-with-text",
+      "settings": {
+        "color_scheme": "schema-1",
+        "enable_large_heading": true,
+        "content_alignment": "ta-left",
+        "remove_padding_top": false,
+        "remove_padding_bottom": false,
+        "primary_image": "shopify:\/\/shop_images\/F71AC1C2-197C-4DEB-AA12-D2AF9A89B308.jpg",
+        "primary_image_ratio": "square",
+        "secondary_image": "shopify:\/\/shop_images\/5AEB0BF7-905E-48E2-A958-3B0FAE6510FD.jpg",
+        "secondary_image_ratio": "square",
+        "subheading": "Feel Confident",
+        "heading": "Smile Bright",
+        "description": "<p>Get a professional teeth cleaning in the comfort of your home with our dentist recommended sonic electric toothbrush guaranteed to improve oral & gum health, also prevent gingivitis and plaque. <\/p>",
+        "button_main_text": "SHOP NOW",
+        "button_main_link": "shopify:\/\/products\/sonic-electric-toothbrush",
+        "button_sub_text": "Review",
+        "button_sub_link": "shopify:\/\/pages\/review",
+        "badge_text": "",
+        "badge_color": "color-accent-1",
+        "badge_position": "p-badge--top-right",
+        "badge_shape": "badge--star"
+      }
+    },
+    "newsletter_8C6xtK": {
+      "type": "newsletter",
+      "settings": {
+        "color_scheme": "schema-1",
+        "image_overlay_opacity": 30,
+        "section_mask_overlay_color": "#000000",
+        "section_content_overlay_color": "#ffffff",
+        "subheading": "",
+        "heading": "Newsletter",
+        "description": "Sign up to to receive emails about promotions, new products and sales. Directly to your inbox.",
+        "content_alignment": "ta-center m-auto",
+        "remove_padding_top": true,
+        "remove_padding_bottom": false,
+        "image": "shopify:\/\/shop_images\/Clean-White-Teeth.jpg",
+        "badge_text": "",
+        "badge_color": "color-accent-1",
+        "badge_position": "p-badge--top-right",
+        "badge_shape": "badge--star"
+      }
+    },
+    "testimonials_ixd6Xy": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_HmdKHa": {
+          "type": "testimonial",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/IMG_1345.jpg",
+            "name": "Mariah M.",
+            "job_title": "⭐️⭐️⭐️⭐️⭐️",
+            "text": "This product has me hooked! It's really user-friendly, and the results are seriously impressive. Told all my friends and family to get one. It's a game-changer, for real."
+          }
+        },
+        "testimonial_LejUDP": {
+          "type": "testimonial",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/IMG_1333.jpg",
+            "name": "Olivia G.",
+            "job_title": "⭐️⭐️⭐️⭐️⭐️",
+            "text": "So, I bought this on a whim, and let me tell you, best buy ever. It's gone above and beyond my expectations. Can't stop talking about it to everyone I know."
+          }
+        },
+        "testimonial_TxdCWH": {
+          "type": "testimonial",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/IMG_1335.jpg",
+            "name": "Jessica C.",
+            "job_title": "⭐️⭐️⭐️⭐️⭐️",
+            "text": "I had my doubts at first, but this product is worth every penny. It's made my dental routine so much smoother, and going back is not an option. Highly recommend it."
+          }
+        },
+        "testimonial_JPGGny": {
+          "type": "testimonial",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/IMG_1334.jpg",
+            "name": "David S.",
+            "job_title": "⭐️⭐️⭐️⭐️⭐️",
+            "text": "Best decision ever! This product is a game-changer. It's reliable, efficient, and has made brushing so much easier. I'm telling everyone I know to grab one ASAP."
+          }
+        },
+        "testimonial_VRPabR": {
+          "type": "testimonial",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/IMG_1328.jpg",
+            "name": "Michael N.",
+            "job_title": "⭐️⭐️⭐️⭐️⭐️",
+            "text": "I can't believe I lived without this thing before. It's super innovative, reliable, and has made brushing way more easier. 5 stars all the way, hands down."
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_HmdKHa",
+        "testimonial_LejUDP",
+        "testimonial_TxdCWH",
+        "testimonial_JPGGny",
+        "testimonial_VRPabR"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "section_mask_overlay_color": "#000000",
+        "image_overlay_opacity": 30,
+        "subheading": "Testimonials",
+        "heading": "We Love Feedback",
+        "description": "",
+        "items_per_row_on_desktop": "4",
+        "items_per_row_on_tablet": "3",
+        "content_align": "ta-left",
+        "enable_carousel": true,
+        "show_navigation": true,
+        "remove_padding_top": false,
+        "remove_padding_bottom": false,
+        "icon_color": "color-accent-bg-2",
+        "badge_text": "",
+        "badge_color": "color-accent-1",
+        "badge_position": "p-badge--bottom-right",
+        "badge_shape": "badge--star"
+      }
+    },
+    "image-banner": {
+      "type": "image-banner",
+      "blocks": {
+        "content-0": {
+          "type": "content",
+          "settings": {
+            "content_position": "center-xs top-xs ta-left",
+            "subheading": "ORAL AGENCY",
+            "heading": "About Us",
+            "description": "<p>“Our company is dedicated to revolutionizing oral care by providing exceptional and personalized dental cleaning products that prioritize both health and aesthetics. Our brand vision is to create smiles that radiate confidence and well-being, while empowering individuals to embrace their oral health journey with enthusiasm. We strive to be a beacon of innovation in dental cleaning, employing advanced techniques and state-of-the-art equipment to deliver superior results. Our mission is to not only clean teeth but also educate and inspire our clients to maintain optimal oral hygiene habits for a lifetime of healthy smiles. We are committed to excellence, integrity, and compassion in every aspect of our services, ensuring that each client receives the care and attention they deserve.”<\/p>",
+            "primary_button_label": "Shop Now",
+            "primary_button_link": "shopify:\/\/products\/sonic-electric-toothbrush",
+            "secondary_button_label": "",
+            "secondary_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "content-0"
+      ],
+      "settings": {
+        "enable_large_heading": false,
+        "color_scheme": "",
+        "section_overlay_opacity": 30,
+        "section_mask_overlay_color": "#000000",
+        "section_content_overlay_color": "#ffffff",
+        "height_desktop": "70",
+        "height_mobile": "70",
+        "mobile_background_image": "shopify:\/\/shop_images\/plant-branch-on-a-white-background.jpg",
+        "badge_text": "",
+        "badge_color": "color-accent-1",
+        "badge_position": "p-badge--top-right",
+        "badge_shape": "badge--star"
+      }
+    },
+    "171330138856168685": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_py6i4F": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": ""
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_py6i4F"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "slideshow",
+    "image-with-text",
+    "newsletter_8C6xtK",
+    "testimonials_ixd6Xy",
+    "image-banner",
+    "171330138856168685"
+  ]
+}

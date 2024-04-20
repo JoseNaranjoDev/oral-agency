@@ -1,0 +1,60 @@
+{
+  "type": "header",
+  "name": "Header Group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "message-0": {
+          "type": "message",
+          "settings": {
+            "message_text": "40% OFF SITE !!!",
+            "message_link": "shopify:\/\/collections\/all"
+          }
+        },
+        "message-1": {
+          "type": "message",
+          "settings": {
+            "message_text": "FREE SHIPPING !!!",
+            "message_link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "message-0",
+        "message-1"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-d7b903cc-3690-4ad5-8701-d92d4a5437a1",
+        "enable_autoplay": true,
+        "duration": 5,
+        "open_external_link": false
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "color_scheme": "schema-1",
+        "enable_drawer": false,
+        "enable_sticky_header": true,
+        "logo_position": "middle-left",
+        "logo": "shopify:\/\/shop_images\/favicon_logo.png",
+        "logo_width": 90,
+        "logo_width_mobile": 80,
+        "menu": "main-menu",
+        "open_external_link": false,
+        "show_currency_selector": true,
+        "show_language_selector": true,
+        "enable_contact": true,
+        "enable_social": true,
+        "enable_transparent": true,
+        "transparent_text_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}
