@@ -54,7 +54,7 @@
             "icon_source_1": "theme_library",
             "primary_options_icon": "thumb-up",
             "html_code_1": "",
-            "primary_heading": "Intelligent zone change",
+            "primary_heading": "Intelligent zone change:",
             "primary_content": "<p>2 minutes intelligent timing, 30 seconds reminder to change zone, automatic gear memory.<\/p>",
             "icon_source_2": "theme_library",
             "secondary_options_icon": "thumb-up",
@@ -76,28 +76,28 @@
         "extra_information_fhbftV": {
           "type": "extra_information",
           "settings": {
-            "extra_info_accent_scheme": "color-accent-bg-1",
+            "extra_info_accent_scheme": "none",
             "display_style": "horizontal",
             "icon_source_1": "theme_library",
             "primary_options_icon": "thumb-up",
             "html_code_1": "",
-            "primary_heading": "Item Heading",
-            "primary_content": "",
+            "primary_heading": "Built-in battery:",
+            "primary_content": "<p>750mAh lithium battery<\/p>",
             "icon_source_2": "theme_library",
-            "secondary_options_icon": "leaf",
+            "secondary_options_icon": "thumb-up",
             "html_code_2": "",
-            "secondary_heading": "Item Heading",
-            "secondary_content": "",
+            "secondary_heading": "Brush head replacement:",
+            "secondary_content": "<p>Gradient color bristles remind you to replace the brush head<\/p>",
             "icon_source_3": "theme_library",
-            "tertiary_options_icon": "leather",
+            "tertiary_options_icon": "thumb-up",
             "html_code_3": "",
-            "tertiary_heading": "Item Heading",
-            "tertiary_content": "",
+            "tertiary_heading": "Function gear:",
+            "tertiary_content": "<p>Cleaning, Whitening, Massage<\/p>",
             "icon_source_4": "theme_library",
-            "quaternary_options_icon": "check",
+            "quaternary_options_icon": "thumb-up",
             "html_code_4": "",
-            "quaternary_heading": "Item Heading",
-            "quaternary_content": ""
+            "quaternary_heading": "Packaging details:",
+            "quaternary_content": "<p>body*1+brush head*4pcs+charger*1+travel case*1+Manual*1+Gift box*1<\/p>"
           }
         },
         "pickup_availability": {
@@ -110,7 +110,7 @@
         "product_cross_sell": {
           "type": "product_cross_sell",
           "settings": {
-            "heading": "Jaded Pixel",
+            "heading": "Check it out!",
             "product_list": [
               "sonic-electric-toothbrush"
             ]

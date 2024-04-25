@@ -10,9 +10,25 @@
       "type": "main-page",
       "settings": {
         "color_scheme": "",
-        "show_page_title": true,
+        "show_page_title": false,
         "remove_padding_top": true,
         "remove_padding_bottom": false
+      }
+    },
+    "image_banner_r8EDhL": {
+      "type": "image-banner",
+      "settings": {
+        "enable_large_heading": false,
+        "color_scheme": "",
+        "section_overlay_opacity": 30,
+        "section_mask_overlay_color": "#000000",
+        "section_content_overlay_color": "#FFFFFF",
+        "height_desktop": "50",
+        "height_mobile": "70",
+        "badge_text": "",
+        "badge_color": "color-accent-1",
+        "badge_position": "p-badge--top-right",
+        "badge_shape": "badge--star"
       }
     },
     "collapsible_content_bfCELV": {
@@ -101,6 +117,7 @@
   "order": [
     "breadcrumb",
     "main",
+    "image_banner_r8EDhL",
     "collapsible_content_bfCELV"
   ]
 }

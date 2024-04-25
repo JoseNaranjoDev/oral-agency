@@ -200,33 +200,8 @@
         "disabled": false,
         "settings": {}
       },
-      "9426859951591838832": {
-        "type": "shopify:\/\/apps\/chatty-livechat-helpdesk\/blocks\/app-page\/1c0e135d-e8e1-4fe2-86be-1c36def46675",
-        "disabled": false,
-        "settings": {}
-      },
-      "6615124273980966592": {
-        "type": "shopify:\/\/apps\/chatty-livechat-helpdesk\/blocks\/app-embed\/1c0e135d-e8e1-4fe2-86be-1c36def46675",
-        "disabled": false,
-        "settings": {}
-      },
       "855628211100114053": {
         "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
-        "disabled": false,
-        "settings": {}
-      },
-      "10839251823476779886": {
-        "type": "shopify:\/\/apps\/helpcenter-ai-faq-page\/blocks\/chat-embed\/96ba30fd-9f2c-45e4-a753-8a1399d9a0d9",
-        "disabled": false,
-        "settings": {}
-      },
-      "17503894164445082576": {
-        "type": "shopify:\/\/apps\/helpcenter-ai-faq-page\/blocks\/contact-form-embed\/96ba30fd-9f2c-45e4-a753-8a1399d9a0d9",
-        "disabled": false,
-        "settings": {}
-      },
-      "14054365922915784782": {
-        "type": "shopify:\/\/apps\/helpcenter-ai-faq-page\/blocks\/tabs-embed\/96ba30fd-9f2c-45e4-a753-8a1399d9a0d9",
         "disabled": false,
         "settings": {}
       },
@@ -244,11 +219,6 @@
           "greeting_message": ""
         }
       },
-      "14017166734719355524": {
-        "type": "shopify:\/\/apps\/helpcenter-ai-faq-page\/blocks\/widget-embed\/96ba30fd-9f2c-45e4-a753-8a1399d9a0d9",
-        "disabled": false,
-        "settings": {}
-      },
       "17676569757753803255": {
         "type": "shopify:\/\/apps\/cartix\/blocks\/app-embed\/e1e19d44-60f2-4f05-8156-49ac0f614adf",
         "disabled": false,
@@ -261,12 +231,12 @@
           "color_background": "#ffffff",
           "background_gradient": "",
           "color_body_text": "#0e0d1c",
-          "primary_button_background": "#ce0e2e",
+          "primary_button_background": "#000000",
           "primary_button_background_gradient": "",
-          "primary_button_color_text": "#070707",
-          "secondary_button_background": "#ce0e2e",
+          "primary_button_color_text": "#ffffff",
+          "secondary_button_background": "#121213",
           "secondary_button_background_gradient": "",
-          "secondary_button_color_text": "#000000",
+          "secondary_button_color_text": "#ffffff",
           "badge_background": "#ce0e2e",
           "badge_text": "#ffffff",
           "color_accent_text_one": "#ffffff",
@@ -280,7 +250,7 @@
           "color_background": "#000000",
           "background_gradient": "",
           "color_body_text": "#ffffff",
-          "primary_button_background": "#212121",
+          "primary_button_background": "#ffffff",
           "primary_button_background_gradient": "",
           "primary_button_color_text": "#ffffff",
           "secondary_button_background": "#000000",

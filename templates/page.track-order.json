@@ -22,9 +22,11 @@
         "color_scheme": "",
         "section_overlay_opacity": 30,
         "section_mask_overlay_color": "#000000",
-        "section_content_overlay_color": "#FFFFFF",
+        "section_content_overlay_color": "#ffffff",
         "height_desktop": "50",
         "height_mobile": "70",
+        "desktop_background_image": "shopify:\/\/shop_images\/wooden-toothbrushes-lined-on-bright-pink-background.jpg",
+        "mobile_background_image": "shopify:\/\/shop_images\/wooden-toothbrushes-lined-on-bright-pink-background.jpg",
         "badge_text": "",
         "badge_color": "color-accent-1",
         "badge_position": "p-badge--top-right",
@@ -43,12 +45,95 @@
         "parcel_panel_app_hMG3wQ"
       ],
       "settings": {}
+    },
+    "collapsible_content_BDyTp4": {
+      "type": "collapsible-content",
+      "blocks": {
+        "content_dFg844": {
+          "type": "content",
+          "settings": {
+            "block_heading": "Where is my order currently?",
+            "description": "<p>You can track your order by visiting our website and accessing the order tracking section. You'll find real-time updates on the status and location of your package there.<\/p>",
+            "page": "",
+            "icon_source": "theme_library",
+            "options_icon": "check",
+            "html_code": ""
+          }
+        },
+        "content_wzakVT": {
+          "type": "content",
+          "settings": {
+            "block_heading": "When will my order arrive?",
+            "description": "<p>The estimated delivery time for your order depends on various factors such as the shipping method selected, your location, and any unforeseen delays. You can check the estimated delivery date during checkout and monitor the tracking information for the latest updates.<\/p>",
+            "page": "",
+            "icon_source": "theme_library",
+            "options_icon": "check",
+            "html_code": ""
+          }
+        },
+        "content_G9rzHc": {
+          "type": "content",
+          "settings": {
+            "block_heading": "Can I make changes to my order after it's been placed?",
+            "description": "<p>Once an order is placed, it may not be possible to make changes directly. However, you can contact our customer support team as soon as possible to inquire about any modifications needed. They will assist you based on the status of your order.<\/p>",
+            "page": "",
+            "icon_source": "theme_library",
+            "options_icon": "check",
+            "html_code": ""
+          }
+        },
+        "content_89pQqY": {
+          "type": "content",
+          "settings": {
+            "block_heading": "What should I do if my order is delayed or missing?",
+            "description": "<p>If your order is delayed beyond the estimated delivery date or if it's missing, please reach out to our customer support immediately. We will investigate the issue and take appropriate action to ensure your order reaches you as soon as possible.<\/p>",
+            "page": "",
+            "icon_source": "theme_library",
+            "options_icon": "check",
+            "html_code": ""
+          }
+        },
+        "content_K6gW4P": {
+          "type": "content",
+          "settings": {
+            "block_heading": "Is there a way to track my order in real-time?",
+            "description": "<p>Yes, you can track your order in real-time by using the tracking number provided in your order confirmation email. Simply enter the tracking number on our website or the courier's website to get live updates on your package's whereabouts and delivery status.<\/p>",
+            "page": "",
+            "icon_source": "theme_library",
+            "options_icon": "check",
+            "html_code": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_dFg844",
+        "content_wzakVT",
+        "content_G9rzHc",
+        "content_89pQqY",
+        "content_K6gW4P"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "subheading": "",
+        "heading": "F.A.Q",
+        "description": "",
+        "content_alignment": "ta-left",
+        "content_ordering": "text_first",
+        "remove_padding_top": false,
+        "remove_padding_bottom": false,
+        "image_ratio": "2\/3",
+        "btn_text": "",
+        "btn_link": "",
+        "show_icon": true,
+        "expand_first_item_initially": true
+      }
     }
   },
   "order": [
     "breadcrumb",
     "main",
     "image_banner_f6wmwn",
-    "17132987223d868353"
+    "17132987223d868353",
+    "collapsible_content_BDyTp4"
   ]
 }
