@@ -34,8 +34,8 @@
         "newsletter_description": "<p>Join our mailing list for promotions, new products and sales. Directly to your inbox.<\/p>",
         "newsletter_color_background": "#000000",
         "newsletter_color": "#ffffff",
-        "show_currency_selector": true,
-        "show_language_selector": true,
+        "show_currency_selector": false,
+        "show_language_selector": false,
         "social_heading": "Follow us",
         "show_socical_icons": true,
         "show_payment_methods": true

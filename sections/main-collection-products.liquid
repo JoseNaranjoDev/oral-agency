@@ -133,7 +133,7 @@
             <div class="products rw gap-unequal js-product-grid js-animate anm" data-id="{{ section.id }}" role="region" aria-label="{{- 'accessibility.collection_results' | t -}}">
               {%- for product in collection.products -%}
                 <div class="clm js-seq-animate anm anm-fadeInUp" style="--w-xs: {{ col_mobile }}; {{ item_width }} --duration: .6s;">
-                  {% render 'card-product', product: product, show_rating: settings.show_product_rating, show_vendor: settings.show_product_vendor, show_color_swatch: settings.show_color_swatches, show_sale_badge: settings.show_sale_badge, enable_quick_buy: settings.enable_quick_buy, item_per_row: col_mobile, show_second_image: settings.show_second_image, ratio: settings.product_card_image_ratio, card_content_inner: false, section: section, is_first: forloop.first %}
+                  {% render 'card-product', product: product, show_vendor: settings.show_product_vendor, show_color_swatch: settings.show_color_swatches, show_sale_badge: settings.show_sale_badge, enable_quick_buy: settings.enable_quick_buy, item_per_row: col_mobile, show_second_image: settings.show_second_image, ratio: settings.product_card_image_ratio, card_content_inner: false, section: section, is_first: forloop.first %}
                 </div>
               {%- endfor -%}
             </div>

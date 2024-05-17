@@ -25,8 +25,8 @@
         "section_content_overlay_color": "#ffffff",
         "height_desktop": "50",
         "height_mobile": "70",
-        "desktop_background_image": "shopify:\/\/shop_images\/wooden-toothbrushes-lined-on-bright-pink-background.jpg",
-        "mobile_background_image": "shopify:\/\/shop_images\/wooden-toothbrushes-lined-on-bright-pink-background.jpg",
+        "desktop_background_image": "shopify:\/\/shop_images\/plant-branch-on-a-white-background.jpg",
+        "mobile_background_image": "shopify:\/\/shop_images\/plant-branch-on-a-white-background.jpg",
         "badge_text": "",
         "badge_color": "color-accent-1",
         "badge_position": "p-badge--top-right",
@@ -44,7 +44,12 @@
       "block_order": [
         "parcel_panel_app_hMG3wQ"
       ],
-      "settings": {}
+      "settings": {
+        "color_scheme": "",
+        "enable_content_fullwidth": false,
+        "remove_padding_top": true,
+        "remove_padding_bottom": true
+      }
     },
     "collapsible_content_BDyTp4": {
       "type": "collapsible-content",
@@ -97,7 +102,7 @@
           "type": "content",
           "settings": {
             "block_heading": "Is there a way to track my order in real-time?",
-            "description": "<p>Yes, you can track your order in real-time by using the tracking number provided in your order confirmation email. Simply enter the tracking number on our website or the courier's website to get live updates on your package's whereabouts and delivery status.<\/p>",
+            "description": "<p>Yes, you can track your order in real-time by using the tracking number provided in your order confirmation email. Simply enter the tracking number on our website or the courier's website to get live updates on your package's where about's and delivery status.<\/p>",
             "page": "",
             "icon_source": "theme_library",
             "options_icon": "check",
@@ -117,7 +122,7 @@
         "subheading": "",
         "heading": "F.A.Q",
         "description": "",
-        "content_alignment": "ta-left",
+        "content_alignment": "ta-center m-auto",
         "content_ordering": "text_first",
         "remove_padding_top": false,
         "remove_padding_bottom": false,

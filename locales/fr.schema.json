@@ -75,9 +75,6 @@
           "content": "Newsletter",
           "info": "Les clients qui s'abonnent verront leur adresse e-mail ajoutée à la [liste de clients](\/admin\/customers?query=&accepts_marketing=1) \"accepte le marketing\""
         },
-        "header_rating": {
-          "info": "Pour afficher une note, ajoutez une application de note de produit. [En savoir plus]"
-        },
         "header_variant_selector": {
           "info": "Le sélecteur de variante s'affiche toujours s'il est disponible. Vous pouvez configurer les options de variantes pour qu'elles s'affichent sous forme d'échantillons dans les paramètres de thème."
         },
@@ -114,9 +111,6 @@
       },
       "show_vendor": {
         "label": "Afficher le fournisseur"
-      },
-      "show_product_rating": {
-        "label": "Afficher la note du produit"
       },
       "show_sale_badge": {
         "label": "Afficher le badge de vente"
@@ -326,10 +320,6 @@
       },
       "show_vendor_name": {
         "label": "Afficher le nom du fournisseur"
-      },
-      "enable_product_rating": {
-        "label": "Activer l'évaluation des produits",
-        "info": "Pour afficher une note, ajoutez une  application de note de produit.  [En savoir plus]"
       },
       "show_shipping_policy": {
         "label": "Afficher la politique de livraison"
@@ -1500,9 +1490,6 @@
         "SKU": {
           "name": "SKU"
         },
-        "rating": {
-          "name": "Evaluation"
-        },
         "variants": {
           "name": "Sélecteur de variante"
         },
@@ -1688,9 +1675,6 @@
         "SKU": {
           "name": "SKU"
         },
-        "rating": {
-          "name": "Evaluation"
-        },
         "variants": {
           "name": "Sélecteur de variante"
         },
@@ -1862,6 +1846,14 @@
       "text_overlay": {
         "info": "Overrides text overlay color"
       }
+    },
+    "apps": {
+      "settings": {
+        "enable_layout_fullwidth": {
+          "label": "Enable content full width"
+        }
+      },
+      "name": "Apps"
     }
   },
   "settings_schema": {

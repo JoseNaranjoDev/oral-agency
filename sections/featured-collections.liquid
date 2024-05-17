@@ -59,7 +59,6 @@
                       <sht-carousel-itm role="listitem" class="clm js-carousel-item anm anm-fadeInUp" style="--w-xs:{{ column_mobile }};--w-md: {{ md }}; --w-sm: {{ sm }};  --delay: {{ forloop.index | times: 0.05 -}}s; --duration: .6s">
                         {% render 'card-product',
                           product: product,
-                          show_rating: settings.show_product_rating,
                           show_vendor: settings.show_product_vendor,
                           show_color_swatch: settings.show_color_swatches,
                           show_sale_badge: settings.show_sale_badge,

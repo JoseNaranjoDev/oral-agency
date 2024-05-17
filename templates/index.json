@@ -12,7 +12,7 @@
             "sub_heading": "Pressure Sensor Toothbrush",
             "heading": "3D-Touch",
             "description": "",
-            "desktop_image": "shopify:\/\/shop_images\/Photoroom_Brushes-darkfade-imagebanner.jpg",
+            "desktop_image": "shopify:\/\/shop_images\/Red_Brush_kit_right-wide-1.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Photoroom_20240416_181526.jpg",
             "primary_button_label": "Shop Now",
             "primary_button_link": "shopify:\/\/collections\/all",
@@ -23,13 +23,13 @@
         "slide_RAxtWY": {
           "type": "slide",
           "settings": {
-            "image_overlay_opacity": 30,
+            "image_overlay_opacity": 40,
             "slide_mask_overlay_color": "#000000",
             "slide_content_overlay_color": "#ffffff",
             "sub_heading": "40,000 Brushes\/Min",
             "heading": "Pro-Clean",
             "description": "",
-            "desktop_image": "shopify:\/\/shop_images\/Photoroom_dark-fade.jpg",
+            "desktop_image": "shopify:\/\/shop_images\/Brushes-right-landing-wide-1.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Photoroom_20240416_181332.jpg",
             "primary_button_label": "Shop Now",
             "primary_button_link": "shopify:\/\/products\/sonic-electric-toothbrush",
@@ -50,9 +50,9 @@
         "enable_pagination": true,
         "enable_navigation": true,
         "enable_autoplay": true,
-        "delay": 3,
+        "delay": 5,
         "content_position": "left-bottom",
-        "accessibility_content": "Smarter way of brushing with"
+        "accessibility_content": "Smarter way of brushing"
       }
     },
     "image-with-text": {
@@ -72,7 +72,7 @@
         "description": "<p>Get a professional teeth cleaning in the comfort of your home with our dentist recommended sonic electric toothbrush guaranteed to improve oral & gum health while preventing gingivitis and plaque. <\/p>",
         "button_main_text": "SHOP NOW",
         "button_main_link": "shopify:\/\/products\/sonic-electric-toothbrush",
-        "button_sub_text": "Review",
+        "button_sub_text": "",
         "button_sub_link": "shopify:\/\/pages\/review",
         "badge_text": "",
         "badge_color": "color-accent-1",
@@ -100,13 +100,34 @@
         "badge_shape": "badge--star"
       }
     },
+    "171474583828297134": {
+      "type": "apps",
+      "blocks": {
+        "vo_product_options_block_anywhere_eMFHGX": {
+          "type": "shopify:\/\/apps\/vo-product-options\/blocks\/block-anywhere\/430cbd7b-bd20-4c16-ba41-db6f4c645164",
+          "settings": {
+            "product": "sonic-electric-toothbrush",
+            "font_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "vo_product_options_block_anywhere_eMFHGX"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "enable_content_fullwidth": false,
+        "remove_padding_top": true,
+        "remove_padding_bottom": true
+      }
+    },
     "testimonials_ixd6Xy": {
       "type": "testimonials",
       "blocks": {
         "testimonial_HmdKHa": {
           "type": "testimonial",
           "settings": {
-            "avatar": "shopify:\/\/shop_images\/IMG_1345.jpg",
+            "avatar": "shopify:\/\/shop_images\/1a07fc68-5ead-42e7-98c1-17d8a17b5e26_2.jpg",
             "name": "Mariah M.",
             "job_title": "⭐️⭐️⭐️⭐️⭐️",
             "text": "This product has me hooked! It's really user-friendly, and the results are seriously impressive. Told all my friends and family to get one. It's a game-changer, for real."
@@ -115,7 +136,7 @@
         "testimonial_LejUDP": {
           "type": "testimonial",
           "settings": {
-            "avatar": "shopify:\/\/shop_images\/IMG_1333.jpg",
+            "avatar": "shopify:\/\/shop_images\/pixlr-image-generator-456d3f1e-7e57-411a-b124-cce80e70d330.png",
             "name": "Olivia G.",
             "job_title": "⭐️⭐️⭐️⭐️⭐️",
             "text": "So, I bought this on a whim, and let me tell you, best buy ever. It's gone above and beyond my expectations. Can't stop talking about it to everyone I know."
@@ -124,7 +145,7 @@
         "testimonial_TxdCWH": {
           "type": "testimonial",
           "settings": {
-            "avatar": "shopify:\/\/shop_images\/IMG_1335.jpg",
+            "avatar": "shopify:\/\/shop_images\/1a07fc68-5ead-42e7-98c1-17d8a17b5e26_1.jpg",
             "name": "Jessica C.",
             "job_title": "⭐️⭐️⭐️⭐️⭐️",
             "text": "I had my doubts at first, but this product is worth every penny. It's made my dental routine so much smoother, and going back is not an option. Highly recommend it."
@@ -142,8 +163,8 @@
         "testimonial_VRPabR": {
           "type": "testimonial",
           "settings": {
-            "avatar": "shopify:\/\/shop_images\/IMG_1328.jpg",
-            "name": "Michael N.",
+            "avatar": "shopify:\/\/shop_images\/IMG_1333.jpg",
+            "name": "Michelle N.",
             "job_title": "⭐️⭐️⭐️⭐️⭐️",
             "text": "I can't believe I lived without this thing before. It's super innovative, reliable, and has made brushing way more easier. 5 stars all the way, hands down."
           }
@@ -213,28 +234,35 @@
         "badge_shape": "badge--star"
       }
     },
-    "171330138856168685": {
+    "17144444789ac532f1": {
       "type": "apps",
       "blocks": {
-        "klaviyo_email_marketing_sms_form_embed_block_py6i4F": {
-          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+        "vo_product_options_block_anywhere_BHQDnp": {
+          "type": "shopify:\/\/apps\/vo-product-options\/blocks\/block-anywhere\/430cbd7b-bd20-4c16-ba41-db6f4c645164",
           "settings": {
-            "formId": ""
+            "product": "sonic-electric-toothbrush",
+            "font_color": "#090c26"
           }
         }
       },
       "block_order": [
-        "klaviyo_email_marketing_sms_form_embed_block_py6i4F"
+        "vo_product_options_block_anywhere_BHQDnp"
       ],
-      "settings": {}
+      "settings": {
+        "color_scheme": "",
+        "enable_content_fullwidth": false,
+        "remove_padding_top": true,
+        "remove_padding_bottom": true
+      }
     }
   },
   "order": [
     "slideshow",
     "image-with-text",
     "newsletter_8C6xtK",
+    "171474583828297134",
     "testimonials_ixd6Xy",
     "image-banner",
-    "171330138856168685"
+    "17144444789ac532f1"
   ]
 }

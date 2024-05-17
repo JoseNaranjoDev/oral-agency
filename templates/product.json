@@ -34,6 +34,12 @@
             "show_tax_and_shipping_policy": true
           }
         },
+        "bafa4c70-c6ef-42fd-bd68-0aa4bd93e8ed": {
+          "type": "shopify:\/\/apps\/yotpo-product-reviews-ugc\/blocks\/star-rating\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
         "purchasing": {
           "type": "purchasing",
           "settings": {
@@ -106,15 +112,6 @@
             "color_scheme": "color-accent-1",
             "show_expected_pickup_time": true
           }
-        },
-        "product_cross_sell": {
-          "type": "product_cross_sell",
-          "settings": {
-            "heading": "Check it out!",
-            "product_list": [
-              "sonic-electric-toothbrush"
-            ]
-          }
         }
       },
       "block_order": [
@@ -122,12 +119,12 @@
         "title",
         "variants",
         "price",
+        "bafa4c70-c6ef-42fd-bd68-0aa4bd93e8ed",
         "purchasing",
         "basic_description",
         "extra_information",
         "extra_information_fhbftV",
-        "pickup_availability",
-        "product_cross_sell"
+        "pickup_availability"
       ],
       "settings": {
         "color_scheme": "",
@@ -150,8 +147,29 @@
         "purchasing_bar_position": "right-0 product__sticky--right"
       }
     },
+    "345c7c967b24c1488aae": {
+      "type": "apps",
+      "blocks": {
+        "92f14bb0-0a09-4c05-9b06-36789e38161d": {
+          "type": "shopify:\/\/apps\/yotpo-product-reviews-ugc\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "92f14bb0-0a09-4c05-9b06-36789e38161d"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "enable_content_fullwidth": false,
+        "remove_padding_top": true,
+        "remove_padding_bottom": true
+      }
+    },
     "product-recommendation": {
       "type": "product-recommendation",
+      "disabled": true,
       "settings": {
         "color_scheme": "schema-1",
         "heading": "You might also like",
@@ -162,11 +180,22 @@
         "remove_padding_top": false,
         "remove_padding_bottom": false
       }
+    },
+    "1714125676d72d4315": {
+      "type": "apps",
+      "settings": {
+        "color_scheme": "",
+        "enable_content_fullwidth": false,
+        "remove_padding_top": true,
+        "remove_padding_bottom": true
+      }
     }
   },
   "order": [
     "breadcrumb",
     "main",
-    "product-recommendation"
+    "345c7c967b24c1488aae",
+    "product-recommendation",
+    "1714125676d72d4315"
   ]
 }

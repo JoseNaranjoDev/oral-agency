@@ -87,8 +87,6 @@
     "of": "di",
     "next_slide": "Diapositiva destra",
     "previous_slide": "Diapositiva sinistra",
-    "total_reviews": "recensioni totali",
-    "star_reviews_info": "{{ rating_value }} su {{ rating_max }} stelle",
     "toggle_navigation": "Alterna la navigazione",
     "close_modal": "Chiudi modale",
     "open_modal": "Aprire modale",
@@ -428,7 +426,6 @@
         "quick_shop": "Negozio veloce",
         "save_percent": "Sconto {{ save_amount }}%",
         "save_percent_up_to": "Saldi fino al {{ save_amount }}%",
-        "no_reviews": "Nessuna recensione",
         "votes": "voti"
       },
       "media": {

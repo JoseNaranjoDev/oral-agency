@@ -75,9 +75,6 @@
           "content": "Boletín de noticias",
           "info": "Los clientes que se suscriban tendrán su dirección de correo electrónico agregada a la lista de \"acepta marketing \"[lista de clientes](\/admin\/customers?query=&accepts_marketing=1)."
         },
-        "header_rating": {
-          "info": "Para mostrar una valoración, añada una app de valoración de productos. [Más información](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/theme-structure\/theme-features#featured-collection-show-product-rating)."
-        },
         "header_variant_selector": {
           "info": "El selector de variantes siempre se muestra si está disponible. Puede configurar las opciones de variantes para que se expongan como muestras en la configuración del tema."
         },
@@ -114,9 +111,6 @@
       },
       "show_vendor": {
         "label": "Mostrar vendedor"
-      },
-      "show_product_rating": {
-        "label": "Mostrar valoración del producto"
       },
       "show_sale_badge": {
         "label": "Mostrar insignia de venta"
@@ -326,10 +320,6 @@
       },
       "show_vendor_name": {
         "label": "Mostrar nombre del proveedor"
-      },
-      "enable_product_rating": {
-        "label": "Activar la valoración de productos",
-        "info": "Para mostrar una valoración, añada una app de valoración de productos. [Más información](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/theme-structure\/page-types#product-rating-block)."
       },
       "show_shipping_policy": {
         "label": "Mostrar política de envíos"
@@ -1500,9 +1490,6 @@
         "SKU": {
           "name": "SKU"
         },
-        "rating": {
-          "name": "Clasificación"
-        },
         "variants": {
           "name": "Selector de variantes"
         },
@@ -1688,9 +1675,6 @@
         "SKU": {
           "name": "SKU"
         },
-        "rating": {
-          "name": "Clasificación"
-        },
         "variants": {
           "name": "Selector de variantes"
         },
@@ -1862,6 +1846,14 @@
       "text_overlay": {
         "info": "Overrides text overlay color"
       }
+    },
+    "apps": {
+      "settings": {
+        "enable_layout_fullwidth": {
+          "label": "Enable content full width"
+        }
+      },
+      "name": "Apps"
     }
   },
   "settings_schema": {

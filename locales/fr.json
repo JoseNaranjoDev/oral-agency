@@ -87,8 +87,6 @@
     "of": "de",
     "next_slide": "Faites glisser vers la droite",
     "previous_slide": "Faites glisser vers la gauche",
-    "total_reviews": "Revues totales",
-    "star_reviews_info": "{{ rating_value }} étoiles sur {{ rating_max }} étoiles",
     "toggle_navigation": "Basculer la navigation",
     "close_modal": "Fermer Modal",
     "open_modal": "Ouvrir Modal",
@@ -428,7 +426,6 @@
         "quick_shop": "Boutique rapide",
         "save_percent": "Vente {{ save_amount }}%",
         "save_percent_up_to": "Vente jusqu'à {{ save_amount }}%",
-        "no_reviews": "Aucun avis",
         "votes": "votes"
       },
       "media": {

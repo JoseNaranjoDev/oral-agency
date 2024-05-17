@@ -87,8 +87,6 @@
     "of": "de",
     "next_slide": "Deslizar a la derecha",
     "previous_slide": "Diapositiva izquierda",
-    "total_reviews": "reseñas totales",
-    "star_reviews_info": "{{ rating_value }} de {{ rating_max }} estrellas",
     "toggle_navigation": "Alternar navegación",
     "close_modal": "Cerrar Modal",
     "open_modal": "Abrir Modal",
@@ -428,7 +426,6 @@
         "quick_shop": "Tienda rápida",
         "save_percent": "Rebaja {{ save_amount }}%",
         "save_percent_up_to": "Rebaja hasta {{ save_amount }}%",
-        "no_reviews": "Sin comentarios",
         "votes": "votos"
       },
       "media": {

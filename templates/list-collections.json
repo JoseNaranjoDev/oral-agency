@@ -2,24 +2,11 @@
   "sections": {
     "breadcrumb": {
       "type": "breadcrumb",
-      "disabled": true,
-      "settings": {
-        "color_scheme": ""
-      }
+      "settings": {}
     },
     "main": {
       "type": "main-list-collections",
-      "settings": {
-        "color_scheme": "",
-        "heading": "Collections",
-        "items_per_row_on_desktop": "4",
-        "items_per_row_on_tablet": "3",
-        "column_mobile": "1",
-        "item_per_page": "24",
-        "content_alignment": "ta-left",
-        "remove_padding_top": true,
-        "remove_padding_bottom": false
-      }
+      "settings": {}
     }
   },
   "order": [

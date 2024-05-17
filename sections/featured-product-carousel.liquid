@@ -33,7 +33,6 @@
               style="--w-xs:12;--w-sm:{{- sm -}};--w-md:{{- md -}}; --delay: {{ forloop.index | times: 0.05 -}}s; --duration: .6s; {{ overlay_color }}; {{ content_color }};" data-item-index="{{ forloop.index }}">
               {% render 'card-product',
                 product: product,
-                show_rating: section.settings.show_product_rating,
                 show_vendor: section.settings.show_vendor,
                 show_color_swatch: section.settings.show_variant_swatch,
                 show_sale_badge: section.settings.show_sale_badge,
@@ -254,12 +253,6 @@
       "id": "show_vendor",
       "label": "t:general.settings.show_vendor.label",
       "default": true
-    },
-    {
-      "type": "checkbox",
-      "id": "show_product_rating",
-      "label": "t:general.settings.show_product_rating.label",
-      "info": "t:general.settings.headers.header_rating.info"
     },
     {
       "type": "checkbox",

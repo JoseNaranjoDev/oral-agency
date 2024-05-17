@@ -75,9 +75,6 @@
           "content": "Newsletter",
           "info": "Customers who subscribe will have their email address added to the \"accepts marketing\" [customer list](\/admin\/customers?query=&accepts_marketing=1)."
         },
-        "header_rating": {
-          "info": "To display a rating, add a product rating app. [Learn more](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/theme-structure\/theme-features#featured-collection-show-product-rating)."
-        },
         "header_variant_selector": {
           "info": "Variant selector always shows if available. You can configure variant options to display as swatches in theme settings."
         },
@@ -114,9 +111,6 @@
       },
       "show_vendor": {
         "label": "Show vendor"
-      },
-      "show_product_rating": {
-        "label": "Show product rating"
       },
       "show_sale_badge": {
         "label": "Show sale badge"
@@ -326,10 +320,6 @@
       },
       "show_vendor_name": {
         "label": "Show vendor name"
-      },
-      "enable_product_rating": {
-        "label": "Enable product rating",
-        "info": "To display a rating, add a product rating app. [Learn more](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/theme-structure\/page-types#product-rating-block)."
       },
       "show_shipping_policy": {
         "label": "Show shipping policy"
@@ -1500,9 +1490,6 @@
         "SKU": {
           "name": "SKU"
         },
-        "rating": {
-          "name": "Rating"
-        },
         "variants": {
           "name": "Variant selector"
         },
@@ -1688,9 +1675,6 @@
         "SKU": {
           "name": "SKU"
         },
-        "rating": {
-          "name": "Rating"
-        },
         "variants": {
           "name": "Variant selector"
         },
@@ -1862,6 +1846,14 @@
       "text_overlay": {
         "info": "Overrides text overlay color"
       }
+    },
+    "apps": {
+      "settings": {
+        "enable_layout_fullwidth": {
+          "label": "Enable content full width"
+        }
+      },
+      "name": "Apps"
     }
   },
   "settings_schema": {

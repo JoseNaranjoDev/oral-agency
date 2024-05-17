@@ -4,7 +4,6 @@
   assign variant_label = settings.variant_swatches_option | downcase | default: 'color'
   assign place_holder = 'product-1' | placeholder_svg_tag: 'placeholder js-image-lazy w-100 h-100'
   assign product_form_id = 'featuredProductForm-' | append: section.id
-  assign is_app = false
   assign product = section.settings.product
   assign first_3d_model = product.media | where: 'media_type', 'model' | first
   assign nav_mobile = 'd-none-important'
@@ -81,7 +80,6 @@
               {%- when '@app' -%}
                 <div class="product__info">
                   {% liquid
-                    assign is_app = true
                     render block
                   %}
                 </div>
@@ -113,10 +111,6 @@
                   <div class="color-light subtext">
                     <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>{{ product.vendor }}
                   </div>
-                </div>
-              {%- when 'rating' -%}
-                <div class="product__info product__info--spacing product__rating p-sides" {{ block.shopify_attributes }}>
-                  {% render 'product-rating', product: product %}
                 </div>
               {%- when 'price' -%}
                 <div class="product__info product__price-and-extrainfo product__prices pt-16 pb-16 pr-12 pl-12 pr-md-20 pl-md-20" {{ block.shopify_attributes }}>
@@ -593,9 +587,6 @@
     </div>
   </sht-dialog>
 {% endif %}
-{%- if is_app -%}
-  {{ 'vendors.css' | asset_url | stylesheet_tag }}
-{%- endif -%}
 {% render 'product-google-snippet', product: product %}
 {% schema %}
 {
@@ -822,17 +813,6 @@
       "type": "SKU",
       "name": "t:sections.featured_product.blocks.SKU.name",
       "limit": 1
-    },
-    {
-      "type": "rating",
-      "name": "t:sections.featured_product.blocks.rating.name",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "paragraph",
-          "content": "t:general.settings.headers.header_rating.info"
-        }
-      ]
     },
     {
       "type": "price",

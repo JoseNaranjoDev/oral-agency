@@ -75,9 +75,6 @@
           "content": "Newsletter",
           "info": "Die E-Mail-Adresse von Kunden, die sich anmelden, wird der \"akzeptiert Marketing\" [Kundenliste](\/admin\/customers?query=&accepts_marketing=1) hinzugefügt."
         },
-        "header_rating": {
-          "info": "Um eine Bewertung anzuzeigen, fügen Sie eine Produktbewertungs-App hinzu. [Weitere Informationen](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/theme-structure\/theme-features#featured-collection-show-product-rating)."
-        },
         "header_variant_selector": {
           "info": "Die Variantenauswahl zeigt immer an, ob es verfügbar ist. Sie können Variantenoptionen so konfigurieren, dass sie als Farbfelder in den Designeinstellungen angezeigt werden."
         },
@@ -114,9 +111,6 @@
       },
       "show_vendor": {
         "label": "Anbieter anzeigen"
-      },
-      "show_product_rating": {
-        "label": "Produktbewertung anzeigen"
       },
       "show_sale_badge": {
         "label": "Verkaufsabzeichen anzeigen"
@@ -326,10 +320,6 @@
       },
       "show_vendor_name": {
         "label": "Anbieternamen anzeigen"
-      },
-      "enable_product_rating": {
-        "label": "Produktbewertung aktivieren",
-        "info": "Um eine Bewertung anzuzeigen, fügen Sie eine Produktbewertungs-App hinzu. [Weitere Informationen](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/theme-structure\/page-types#product-rating-block)."
       },
       "show_shipping_policy": {
         "label": "Versandrichtlinie anzeigen"
@@ -1500,9 +1490,6 @@
         "SKU": {
           "name": "SKU"
         },
-        "rating": {
-          "name": "Bewertung"
-        },
         "variants": {
           "name": "Variantenauswahl"
         },
@@ -1688,9 +1675,6 @@
         "SKU": {
           "name": "SKU"
         },
-        "rating": {
-          "name": "Bewertung"
-        },
         "variants": {
           "name": "Variantenauswahl"
         },
@@ -1862,6 +1846,14 @@
       "text_overlay": {
         "info": "Overrides text overlay color"
       }
+    },
+    "apps": {
+      "settings": {
+        "enable_layout_fullwidth": {
+          "label": "Enable content full width"
+        }
+      },
+      "name": "Apps"
     }
   },
   "settings_schema": {

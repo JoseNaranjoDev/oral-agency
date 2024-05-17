@@ -90,7 +90,7 @@
   <div class="ctnr zi-1 w-100 h-100 p-relative d-flex fd-column content--special {{ content_align }} {{ content_position }} " style="--mh-xs: {{- min_height_mobile -}}vh;--h-xs: {{- height_mobile -}};--mh-sm: {{- min_height_desktop -}}vh;--h-sm: {{- height_desktop -}}; {{ content_color }}">
     {% assign heading_style = section.settings.enable_large_heading | default: '' | replace: 'true', 'headline' %}
     {%- unless section.blocks[0].settings.subheading == blank and section.blocks[0].settings.heading == blank and section.blocks[0].settings.description == blank -%}
-      <div class="s-header pb-0 mah-100 {{ s_header_style }}">
+      <div class="s-header pb-0 mah-100 w-100 {{ s_header_style }}">
         {% if section.settings.badge_text != blank %}
           <sht-shape-parallax class="d-block p-relative p-badge-wrap" data-enable-parallax-scrolling="{{ settings.enable_parallax_scrolling_prominent_badge }}" data-content-transform="rotate(-4deg) translate(-50%, -50%)">
             <div class="js-shape-parallax-shape {{ section.settings.badge_position }} p-absolute zi-2 o-hidden">

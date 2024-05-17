@@ -214,7 +214,7 @@
                           role="listitem" class="main-search_result main-search_result--{{ item.object_type }} js-main-search-result-{{- item.object_type }} clm"
                           style="--w-xs: {{- col_mobile -}}; {{- item_width -}} "
                         >
-                          {% render 'card-product', product: item, show_rating: settings.show_product_rating, show_vendor: settings.show_product_vendor, show_color_swatch: settings.show_color_swatches, show_sale_badge: settings.show_sale_badge, enable_quick_buy: settings.enable_quick_buy, show_second_image: settings.show_second_image, ratio: settings.product_card_image_ratio, card_content_inner: false, section: section, is_first: forloop.first %}
+                          {% render 'card-product', product: item, show_vendor: settings.show_product_vendor, show_color_swatch: settings.show_color_swatches, show_sale_badge: settings.show_sale_badge, enable_quick_buy: settings.enable_quick_buy, show_second_image: settings.show_second_image, ratio: settings.product_card_image_ratio, card_content_inner: false, section: section, is_first: forloop.first %}
                         </div>
                       {%- when 'article' -%}
                         <div

@@ -87,8 +87,6 @@
     "of": "von",
     "next_slide": "Nach rechts schieben",
     "previous_slide": "Nach links schieben",
-    "total_reviews": "Gesamtbewertungen",
-    "star_reviews_info": "{{ rating_value }} von {{ rating_max }} Sternen",
     "toggle_navigation": "Navigation umschalten",
     "close_modal": "Schließen Sie Modal",
     "open_modal": "Modal öffnen",
@@ -133,7 +131,7 @@
         "other": "{{ count }} Gegenstände"
       },
       "drawer": {
-        "title": "Speisekarte"
+        "title": "Menü"
       }
     },
     "footer": {
@@ -428,7 +426,6 @@
         "quick_shop": "Schnellkauf",
         "save_percent": "Verkauf {{ save_amount }} %",
         "save_percent_up_to": "Verkauf bis zu {{ save_amount }} %",
-        "no_reviews": "Keine Bewertungen",
         "votes": "Stimmen"
       },
       "media": {

@@ -87,8 +87,6 @@
     "of": "of",
     "next_slide": "Slide right",
     "previous_slide": "Slide left",
-    "total_reviews": "total reviews",
-    "star_reviews_info": "{{ rating_value }} out of {{ rating_max }} stars",
     "toggle_navigation": "Toggle Navigation",
     "close_modal": "Close Modal",
     "open_modal": "Open Modal",
@@ -428,7 +426,6 @@
         "quick_shop": "Quick shop",
         "save_percent": "Sale {{ save_amount }}%",
         "save_percent_up_to": "Sale up to {{ save_amount }}%",
-        "no_reviews": "No reviews",
         "votes": "votes"
       },
       "media": {

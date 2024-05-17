@@ -1,7 +1,6 @@
 {%- comment -%}
 {% render 'card-product',
   product: block.settings.product,
-  show_rating: true,
   show_vendor: true,
   show_color_swatch: true,
   show_sale_badge: true,
@@ -115,10 +114,6 @@
 
       if show_color_swatch == true
         render 'card-product-color-swatch', product: product, product_image_id: product_image_id, product_link_class: product_link_class
-      endif
-
-      if show_rating and product.metafields.reviews.rating.value != blank
-        render 'product-rating', product: product
       endif
     -%}
   </div>
